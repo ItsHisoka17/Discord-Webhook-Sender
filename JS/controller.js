@@ -4,6 +4,6 @@ $(function(){
         let content = $('#content').val()
         let username = $('#username').val()
         let avatar = $('#avatar').val()
-        $.post(link, {"content": content, "username": content, "avatar": avatar})
+        $.post(link, {"content": content, "username": username, "avatar_url": avatar})
     })
 });
